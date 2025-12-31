@@ -1,0 +1,112 @@
+{
+  "dishes": {
+    "pho": {
+      "id": "pho",
+      "name": "Phở",
+      "regionId": "saigon",
+      "image": "assets/images/dishes/pho.jpg",
+      "category": "noodles",
+      "price": {
+        "min": 30000,
+        "max": 80000,
+        "currency": "VND"
+      },
+      "ingredients": [
+        "Bánh phở (Rice noodles)",
+        "Broth: Beef or chicken",
+        "Thin beef slices",
+        "Star anise",
+        "Cinnamon",
+        "Bean sprouts",
+        "Lime",
+        "Chili",
+        "Fish sauce (Nước mắm)",
+        "Onion",
+        "Fresh herbs: cilantro, Thai basil"
+      ],
+      "flavors": ["Rich", "Aromatic", "Meaty sweetness", "Herbal"],
+      "description": "Phở delivers a complex, rich flavor structure. The highlight of the dish is the fragrant broth, simmered for hours with beef bones, onion and roasted ginger, along with warm spices like star anise and cinnamon.",
+      "history": "Phở originated in Northern Vietnam in the early 20th century, likely in the Nam Định and Hà Nội regions. This dish appeared during the French colonial period..."
+    },
+    "comtam": {
+      "id": "comtam",
+      "name": "Cơm Tấm",
+      "regionId": "saigon",
+      "image": "assets/images/dishes/com-tam.jpg",
+      "category": "rice",
+      "price": {
+        "min": 25000,
+        "max": 60000,
+        "currency": "VND"
+      },
+      "ingredients": [
+        "Broken rice (Gạo tấm)",
+        "Grilled ribs (Sườn nướng)",
+        "Shredded pork skin (Bì)",
+        "Steamed pork egg roll (Chả)",
+        "Sunny-side-up egg (Trứng ốp la)",
+        "Pickled vegetables (Đồ chua)",
+        "Fish sauce dressing (Nước mắm pha)",
+        "Fried shallots (Hành phi)",
+        "Cucumber",
+        "Tomato"
+      ],
+      "flavors": ["Sweet and light", "Grilled aroma", "Rich and fatty", "Sweet and sour"],
+      "description": "Cơm Tấm is a signature dish of Saigon cuisine with rich, harmonious flavors. Broken rice has small grains that are soft, chewy and fragrant.",
+      "history": "Cơm Tấm originated from the Mekong Delta region, where farmers often used broken rice grains (tấm)..."
+    },
+    "hutieu": {
+      "id": "hutieu",
+      "name": "Hủ Tiếu",
+      "regionId": "saigon",
+      "image": "assets/images/dishes/hu-tieu.jpg",
+      "category": "noodles",
+      "price": {
+        "min": 30000,
+        "max": 70000,
+        "currency": "VND"
+      },
+      "ingredients": [
+        "Hủ tiếu noodles",
+        "Broth: Pork/Seafood",
+        "Pork",
+        "Shrimp",
+        "Bean sprouts",
+        "Chives",
+        "Scallions",
+        "Fried garlic",
+        "Dried squid"
+      ],
+      "flavors": ["Sweet and light", "Refreshing", "Garlicky", "Oceanic"],
+      "description": "Hủ Tiếu is a dish with strong Southern Vietnamese flavors, featuring a sweet and light broth from pork bones or seafood.",
+      "history": "Hủ Tiếu originated from the Teochew Chinese community, introduced to Southern Vietnam..."
+    },
+    "banhmi": {
+      "id": "banhmi",
+      "name": "Bánh Mì",
+      "regionId": "saigon",
+      "image": "assets/images/dishes/banh-mi.jpg",
+      "category": "bread",
+      "price": {
+        "min": 15000,
+        "max": 40000,
+        "currency": "VND"
+      },
+      "ingredients": [
+        "Bánh mì (Vietnamese baguette)",
+        "Pate",
+        "Vietnamese pork roll (Chả lụa)",
+        "Cold cuts",
+        "Pickled vegetables (Đồ chua)",
+        "Cilantro",
+        "Cucumber",
+        "Chili",
+        "Soy sauce"
+      ],
+      "flavors": ["Crispy", "Rich pate", "Aromatic", "Sour and spicy"],
+      "description": "Bánh Mì Vietnam is the perfect fusion of East and West. Crispy crust on the outside, soft interior inside.",
+      "history": "Bánh Mì appeared in Vietnam during the French colonial period when the French brought baguette..."
+    }
+  }
+}
+

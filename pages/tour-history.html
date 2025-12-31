@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour History - Culinary Compass</title>
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/tour-history.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" style="height: 70px; background: white; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; position: sticky; top: 0; z-index: 1000; padding: 0;">
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1rem; width: 100%;">
+            <div class="header-content" style="display: flex; justify-content: space-between; align-items: center; height: 100%;">
+                
+                <a href="../index.html" class="logo-container" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px;">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#DC2626" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="header-text" style="display: flex; flex-direction: column;">
+                        <h1 class="header-title" style="font-size: 1.25rem; font-weight: 700; color: #111827; margin: 0; line-height: 1.2;">Culinary Compass Vietnam</h1>
+                        <p class="header-subtitle" style="font-size: 0.875rem; color: #6B7280; margin: 0;">Discover Vietnamese Cuisine</p>
+                    </div>
+                </a>
+
+                <div class="nav-actions" id="navActions" style="display: flex; align-items: center; gap: 1rem;">
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="profile-container">
+        <div class="page-title">
+            <h2>↺ Tour History</h2>
+            <p>Track the food tours you've completed</p>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon tours">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <h3 id="total-tours">0</h3>
+                    <p>Total Tours</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon restaurants">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <h3 id="total-restaurants">0</h3>
+                    <p>Restaurants Visited</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon dishes">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <h3 id="total-dishes">0</h3>
+                    <p>Dishes Tried</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon distance">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <h3 id="total-distance">0 km</h3>
+                    <p>Distance Traveled</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="card filter-card">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="filter-status">Status:</label>
+                    <select id="filter-status" class="filter-select" onchange="filterTours()">
+                        <option value="all">All</option>
+                        <option value="completed">Completed</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="cancelled">Cancelled</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-by">Sort:</label>
+                    <select id="sort-by" class="filter-select" onchange="sortTours()">
+                        <option value="recent">Most Recent</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="restaurants">Most Stops</option>
+                    </select>
+                </div>
+
+                <button class="btn-export" onclick="exportHistory()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Export Report
+                </button>
+            </div>
+        </div>
+
+        <!-- Tour History List -->
+        <div id="tours-container" class="tours-list">
+            <!-- Will be populated by JavaScript -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="empty-state" style="display: none;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="empty-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
+            <h3>No tour history yet</h3>
+            <p>Start exploring and create your first tour!</p>
+            <button class="btn-primary" onclick="window.location.href='features/tour-designer.html'">Create Tour Now</button>
+        </div>
+    </main>
+
+    <script src="../assets/js/auth.js"></script>
+    <script src="../assets/js/tour-history.js"></script>
+    <div id="accountDropdown" class="account-dropdown" style="display: none;">
+    <div class="dropdown-content">
+        <div class="dropdown-header">
+            <div class="user-avatar">
+                <span id="userInitial">U</span>
+            </div>
+            <div class="user-info">
+                <p class="user-name" id="userName">User</p>
+                <p class="user-email">user@example.com</p>
+            </div>
+        </div>
+        <hr class="dropdown-divider">
+        <a href="profile.html" class="dropdown-item">My Account</a>
+        <a href="favorites.html" class="dropdown-item">Favorite Restaurants</a>
+        <a href="tour-history.html" class="dropdown-item">Tour History</a>
+        <hr class="dropdown-divider">
+        <a href="#" class="dropdown-item logout-item" onclick="handleLogout(); return false;">Sign Out</a>
+    </div>
+</div>
+</body>
+</html>
+

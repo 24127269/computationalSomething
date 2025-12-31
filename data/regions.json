@@ -1,0 +1,53 @@
+{
+  "regions": [
+    {
+      "id": "hanoi",
+      "name": "Hà Nội",
+      "nameEn": "Hanoi",
+      "description": "The thousand-year-old capital with rich traditional Northern Vietnamese cuisine",
+      "image": "assets/images/regions/hanoi.jpg",
+      "specialties": ["Phở", "Bún chả", "Chả cá Lã Vọng"],
+      "coordinates": {
+        "lat": 21.0285,
+        "lng": 105.8542
+      }
+    },
+    {
+      "id": "saigon",
+      "name": "TP. Hồ Chí Minh",
+      "nameEn": "Ho Chi Minh City",
+      "description": "A vibrant city with diverse and abundant Southern Vietnamese cuisine",
+      "image": "assets/images/regions/hcmc.jpg",
+      "specialties": ["Bánh mì", "Hủ tiếu", "Cơm tấm"],
+      "coordinates": {
+        "lat": 10.8231,
+        "lng": 106.6297
+      }
+    },
+    {
+      "id": "danang",
+      "name": "Đà Nẵng",
+      "nameEn": "Da Nang",
+      "description": "A coastal city with fresh seafood and unique Central Vietnamese dishes",
+      "image": "assets/images/regions/danang.jpg",
+      "specialties": ["Mì Quảng", "Bún chả cá", "Bánh tráng cuốn thịt heo"],
+      "coordinates": {
+        "lat": 16.0544,
+        "lng": 108.2022
+      }
+    },
+    {
+      "id": "hue",
+      "name": "Huế",
+      "nameEn": "Hue",
+      "description": "The ancient capital with refined royal cuisine and distinctive flavors",
+      "image": "assets/images/regions/hue.jpg",
+      "specialties": ["Bún bò Huế", "Bánh bèo", "Cơm hến"],
+      "coordinates": {
+        "lat": 16.4637,
+        "lng": 107.5909
+      }
+    }
+  ]
+}
+
